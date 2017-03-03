@@ -1,11 +1,11 @@
 ﻿using System;
 
-namespace router_manager.Models
+namespace RouterManager.Models
 {
     public class RouterType360P1:IRouterType
     {
         public string Title { get; set; } = "360P1";
-        public void ReConnection()
+        public void Reconnect(Router router)
         {
             throw new NotImplementedException();
         }

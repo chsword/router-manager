@@ -1,4 +1,4 @@
-﻿namespace router_manager.Models
+﻿namespace RouterManager.Models
 {
     public enum RouterStatus
     {

@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace router_manager.Models
+﻿namespace RouterManager.Models
 {
     public interface IRouterType
     {
         string Title { get; set; }
 
-        void ReConnection();
+        void Reconnect(Router router);
         string GetOutIP();
 
         bool IsActive();
